@@ -37,12 +37,14 @@ Note: OS recommendation - Linux Ubuntu based.
 Note: Please run next cmd after above step 2 if you are using Linux OS: `sudo usermod -aG docker $USER`
 
 ## Setting up DEV environment
-1.You can clone this repository from GitHub or install via composer.
+0.You can clone this repository from GitHub or install via composer.
 
 If you have installed composer and want to install environment via composer you can use next cmd command:
 ```bash
 composer create-project systemsdk/docker-symfony-api api-example-app
 ```
+
+1. conposer install
 
 2.Set another APP_SECRET for application in .env.prod and .env.staging files.
 

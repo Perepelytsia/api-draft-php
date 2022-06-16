@@ -12,7 +12,7 @@ services:
       container_name: ${COMPOSE_PROJECT_NAME}_nginx
       restart: always
       ports:
-        - "80:80"
+        - "99:80"
         - "443:443"
       volumes:
         - .:/var/www/html:ro,cached
