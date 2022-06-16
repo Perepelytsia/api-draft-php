@@ -44,7 +44,7 @@ If you have installed composer and want to install environment via composer you 
 composer create-project systemsdk/docker-symfony-api api-example-app
 ```
 
-1. conposer install
+1.conposer install
 
 2.Set another APP_SECRET for application in .env.prod and .env.staging files.
 
@@ -168,6 +168,9 @@ make migrate-cron-jobs
 make messenger-setup-transports
 make elastic-create-or-update-template
 ```
+
+7./tools/01_phpunit/vendor/phpunit/phpunit/phpunit
+
 
 ## How to enable paid features for Elasticsearch
 Switch the value of Elasticsearch's `xpack.license.self_generated.type` option from `basic` to `trial` (`/docker/elasticsearch/config/elasticsearch.yml`).
